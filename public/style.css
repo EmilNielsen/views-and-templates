@@ -1,3 +1,11 @@
+/* html {
+	cursor: progress;
+} */
+
+* {
+	cursor: progress;
+}
+
 /* * {
 	margin: 0;
 	padding: 0;

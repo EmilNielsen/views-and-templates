@@ -3,6 +3,8 @@ module.exports = (app) => {
       res.render('home', {
          "title": "Home"
       });
+      // res.send("yote");
+      // console.log("Home page"); //Udskriver i terminal
    });
 
    app.get('/product', (req, res, next) => {
@@ -15,5 +17,10 @@ module.exports = (app) => {
       res.render('contact', {
          "title": "Contact"
       });
+   });
+
+   app.get('/test', (req, res, next) => {
+      res.send("This is just a small test");
+      console.log("test page");
    });
 };
