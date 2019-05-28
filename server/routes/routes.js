@@ -4,7 +4,7 @@ module.exports = (app) => {
          "title": "Home",
          "page": "home"
       });
-      console.log("Homepage loaded");
+      console.log("Home loaded");
       // res.send("yote");
       // console.log("Home page"); //Udskriver i terminal
    });
@@ -14,7 +14,7 @@ module.exports = (app) => {
          "title": "Products",
          "page": "product"
       });
-      console.log("Productspage loaded");
+      console.log("Products loaded");
    });
 
    app.get('/contact', (req, res, next) => {
@@ -22,7 +22,7 @@ module.exports = (app) => {
          "title": "Contact",
          "page": "contact"
       });
-      console.log("Contactspage loaded");
+      console.log("Contacts loaded");
    });
 
    app.get('/test', (req, res, next) => {
